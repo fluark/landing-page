@@ -1,6 +1,16 @@
 .header {
     border: solid blue 2px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
+
+/* figure out how to target links
+ {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+*/
+
 
 .info {
     border: solid green 2px;
