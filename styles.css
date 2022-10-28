@@ -20,7 +20,7 @@
   color: #F9FAF8;
   height: 50px;
   width: 100px;
-  border: none;
+  border-style: none;
   border-radius: 15px;
 }
 
@@ -40,9 +40,30 @@ h2 {
   font-style: light italic;
 }
 
+
 .cta {
-  border: solid red 2px;
+  border: 2px solid red;
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
+
+
+.ctabold {
+  color: #F9FAF8;
+  font-weight: bold;
+  }
+
+
+.signup2 {
+  background-color: #3882F6;  
+  color: #F9FAF8;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  border: 2px solid #F9FAF8;
+}
+
+
 
 .footer {
   border: solid purple 2px;
