@@ -15,8 +15,24 @@ font-size: 48px;
     font-size: 18px;
 }
 
+.signup {
+  background-color: #3882F6;  
+  color: #F9FAF8;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+}
+
 .info {
-    border: solid green 2px;
+    border: solid orange 2px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+
+
 }
 
 .quote {
@@ -29,5 +45,4 @@ font-size: 48px;
 
 .footer {
     border: solid purple 2px;
-
 }
