@@ -5,7 +5,7 @@ body {
 }
 
 
-.header {
+.header, .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,8 +15,6 @@ body {
 }
 
 .heromain {
-  display: flex;
-  flex-direction: column;
   font-size: 48px;
 }
 
@@ -29,11 +27,15 @@ body {
 
 }
 
-.awesome {
-  border: solid 4px pink;
-
-
-}
+/*had this as a solo class but then added .container to the .header
+after noticing the font got messed up. may have to be separate
+again for proper alignment
+.container {
+    border: solid 4px limegreen;
+    display: flex;
+    justify-content: space-around;
+  }
+  */
 
 
 
