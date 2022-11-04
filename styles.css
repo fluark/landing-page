@@ -50,23 +50,44 @@ again for proper alignment
 
 .info {
   border: solid orange 2px;
+  align-content
 }
 
 h2 {
-  font-size: 36px;
-  color: #1F2937;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+  }
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.one, 
+.two, 
+.three, 
+.four {
+    flex-basis: 150px;
+    text-align: center;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 15px;
 }
 
 .quote, i, strong {
-  background-color: #E5E7EB;
-  color: #1F2937;
-  font-size: 36px;
-  font-style: light italic;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+    
 }
 
 .quote {
     padding: 35px;
-
 }
 
 .cta {
