@@ -1,3 +1,8 @@
+* {
+    border: solid blueviolet 2px;
+
+}
+
 
 body {
  display: flex;
@@ -63,6 +68,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 4em;
+    margin-bottom: 100px;
 }
 
 .one, 
@@ -89,6 +95,20 @@ img {
 .quote {
     padding: 35px;
 }
+
+.qtext {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong {
+    align-self: flex-end;
+
+}
+
 
 .cta {
   border: 2px solid red;
