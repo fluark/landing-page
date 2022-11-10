@@ -1,8 +1,9 @@
+/*
+
 * {
     border: solid blueviolet 2px;
-
 }
-
+*/
 
 body {
  display: flex;
@@ -55,7 +56,7 @@ again for proper alignment
 
 .info {
   border: solid orange 2px;
-  align-content
+  
 }
 
 h2 {
@@ -93,7 +94,7 @@ img {
 }
 
 .quote {
-    padding: 35px;
+    padding: 100px;
 }
 
 .qtext {
@@ -111,10 +112,16 @@ strong {
 
 
 .cta {
-  border: 2px solid red;
   background-color: #3882F6;
   color: #E5E7EB;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
   padding: 15px;
+  margin: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 
@@ -127,6 +134,7 @@ strong {
 .signup2 {
   background-color: #3882F6;  
   color: #F9FAF8;
+  align-self: center;
   height: 50px;
   width: 100px;
   border-radius: 15px;
