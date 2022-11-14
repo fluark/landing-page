@@ -1,13 +1,15 @@
-/*
 
-* {
-    border: solid blueviolet 2px;
-}
-*/
 
 body {
+ min-height: 100vh;
+ margin: 0px;
  display: flex;
  flex-direction: column;
+}
+
+.content {
+flex: 1, 0, auto;
+
 }
 
 
@@ -54,10 +56,6 @@ again for proper alignment
   border-radius: 15px;
 }
 
-.info {
-  border: solid orange 2px;
-  
-}
 
 h2 {
     font-size: 36px;
@@ -114,14 +112,15 @@ strong {
 .cta {
   background-color: #3882F6;
   color: #E5E7EB;
+  font-size: 26px;
   display: flex;
   justify-content: space-around;
   border-radius: 15px;
-  padding: 15px;
+  padding: 55px;
   margin: 70px;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1150px;
 }
 
 
@@ -135,17 +134,22 @@ strong {
   background-color: #3882F6;  
   color: #F9FAF8;
   align-self: center;
+  font-size: 20px;
   height: 50px;
-  width: 100px;
+  width: 150px;
   border-radius: 15px;
-  border: 2px solid #F9FAF8;
+  border: 3px solid #F9FAF8;
 }
-
 
 
 .footer {
   background-color: #1F2937;
   color: #E5E7EB;
-  border: solid purple 2px;
-  padding: 15px;
+  font-size: 22px;
+  text-align: center;
+  flex-shrink: 0;
+  padding: 55px;
+  
+  
+  
 }
