@@ -9,7 +9,6 @@ body {
 
 .content {
 flex: 1, 0, auto;
-
 }
 
 
@@ -21,6 +20,19 @@ flex: 1, 0, auto;
   color: #F9FAF8;
   font-size: 24px;
 }
+
+/* align header better
+.header {
+  display: flex;
+  justify-content: space-around;
+
+}
+*/
+
+.container {
+  padding: 50px;
+}
+
 
 .heromain {
   font-size: 48px;
